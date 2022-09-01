@@ -1,0 +1,64 @@
+[21-Jul-2022 18:57:45 UTC] WordPress database error Specified key was too long; max key length is 767 bytes for query CREATE TABLE N9Y_ce4wp_contacts (
+			contact_id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+			email varchar(200) NOT NULL DEFAULT '',
+			first_name varchar(200) DEFAULT '',
+			last_name varchar(200) DEFAULT '',
+			telephone varchar(200) DEFAULT '',
+            consent varchar(200) DEFAULT '',
+			PRIMARY KEY  (contact_id),
+			UNIQUE KEY email (email)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, CreativeMail\Managers\DatabaseManager->update_database_check, CreativeMail\Managers\DatabaseManager->create_contacts_table, dbDelta
+[21-Jul-2022 21:16:31 UTC] PHP Fatal error:  Uncaught W3TC\Util_Environment_Exceptions in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php:17
+Stack trace:
+#0 /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/SetupGuide_Plugin_Admin.php(261): W3TC\PgCache_Environment->fix_on_wpadmin_request(Object(W3TC\Config), true)
+#1 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(307): W3TC\SetupGuide_Plugin_Admin->config_pgcache('')
+#2 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home2/redsurg1/public_html/redsurgetechnology/wp-admin/admin-ajax.php(187): do_action('wp_ajax_w3tc_co...')
+#5 {main}
+  thrown in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php on line 17
+[21-Jul-2022 21:17:24 UTC] PHP Fatal error:  Uncaught W3TC\Util_Environment_Exceptions in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php:17
+Stack trace:
+#0 /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/SetupGuide_Plugin_Admin.php(261): W3TC\PgCache_Environment->fix_on_wpadmin_request(Object(W3TC\Config), true)
+#1 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(307): W3TC\SetupGuide_Plugin_Admin->config_pgcache('')
+#2 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home2/redsurg1/public_html/redsurgetechnology/wp-admin/admin-ajax.php(187): do_action('wp_ajax_w3tc_co...')
+#5 {main}
+  thrown in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php on line 17
+[21-Jul-2022 21:17:49 UTC] PHP Fatal error:  Uncaught W3TC\Util_Environment_Exceptions in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php:17
+Stack trace:
+#0 /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/SetupGuide_Plugin_Admin.php(261): W3TC\PgCache_Environment->fix_on_wpadmin_request(Object(W3TC\Config), true)
+#1 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(307): W3TC\SetupGuide_Plugin_Admin->config_pgcache('')
+#2 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home2/redsurg1/public_html/redsurgetechnology/wp-admin/admin-ajax.php(187): do_action('wp_ajax_w3tc_co...')
+#5 {main}
+  thrown in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php on line 17
+[21-Jul-2022 21:20:01 UTC] PHP Fatal error:  Uncaught W3TC\Util_Environment_Exceptions in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php:17
+Stack trace:
+#0 /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/SetupGuide_Plugin_Admin.php(261): W3TC\PgCache_Environment->fix_on_wpadmin_request(Object(W3TC\Config), true)
+#1 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(307): W3TC\SetupGuide_Plugin_Admin->config_pgcache('')
+#2 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home2/redsurg1/public_html/redsurgetechnology/wp-admin/admin-ajax.php(187): do_action('wp_ajax_w3tc_co...')
+#5 {main}
+  thrown in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php on line 17
+[21-Jul-2022 21:20:44 UTC] PHP Fatal error:  Uncaught W3TC\Util_Environment_Exceptions in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php:17
+Stack trace:
+#0 /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/SetupGuide_Plugin_Admin.php(261): W3TC\PgCache_Environment->fix_on_wpadmin_request(Object(W3TC\Config), true)
+#1 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(307): W3TC\SetupGuide_Plugin_Admin->config_pgcache('')
+#2 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home2/redsurg1/public_html/redsurgetechnology/wp-admin/admin-ajax.php(187): do_action('wp_ajax_w3tc_co...')
+#5 {main}
+  thrown in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php on line 17
+[21-Jul-2022 21:25:00 UTC] PHP Fatal error:  Uncaught W3TC\Util_Environment_Exceptions in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php:17
+Stack trace:
+#0 /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/SetupGuide_Plugin_Admin.php(261): W3TC\PgCache_Environment->fix_on_wpadmin_request(Object(W3TC\Config), true)
+#1 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(307): W3TC\SetupGuide_Plugin_Admin->config_pgcache('')
+#2 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /home2/redsurg1/public_html/redsurgetechnology/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home2/redsurg1/public_html/redsurgetechnology/wp-admin/admin-ajax.php(187): do_action('wp_ajax_w3tc_co...')
+#5 {main}
+  thrown in /home2/redsurg1/public_html/redsurgetechnology/wp-content/plugins/w3-total-cache/PgCache_Environment.php on line 17
